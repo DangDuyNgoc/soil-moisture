@@ -6,7 +6,7 @@ import EditRequestView from "../views/EditRequest.vue";
 
 
 const routes = [
-    { path: "/", component: HomeView },
+    { path: "/", component: RequestView },
     { path: "//create-soil-moisture", component: CreateRequestView },
     { path: "/soil-moisture-records", component: RequestView },
     { path: "/edit-request/:id", component: EditRequestView, props: true },
